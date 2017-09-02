@@ -45,7 +45,7 @@ class App extends Component {
     return (
       <div>
         <div className="headerBar">
-         <EditToggle update={this.updateEditStatus}/>
+         <EditToggle update={this.updateEdit}/>
           <ColorChanger update={this.updateColor} allowEdit={this.state.allowEdit}/>
           <SizeChanger update={this.updateSize} allowEdit={this.state.allowEdit}/>
           <FamilyChanger update={this.updateFamily} allowEdit={this.state.allowEdit}/>
